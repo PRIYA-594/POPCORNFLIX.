@@ -1,0 +1,21 @@
+body{
+text-align:center;
+background-color:black;
+ background-image: url("https://i.pinimg.com/originals/4c/1a/52/4c1a52e76ecb222ace05df67dff0796a.gif");
+background-repeat:no-repeat;
+background-size:cover;
+
+}
+h1{color:white;
+font-family:cursive;
+}
+
+h1
+{color:white;}
+table,tr,td
+{
+cell-spacing:50px;
+padding:20px;
+color:red;
+
+}

@@ -1,0 +1,89 @@
+body
+{
+
+background-color:black;
+}
+.container
+{
+display:grid;
+height:100vh;
+grid-template-columns:0.5fr 0.5fr;
+grid-template-rows:0.5fr;
+grid-template-areas:
+"h1 h1"
+"content1 content2"
+"content5 content6"
+"content3 content4";
+grid-gap:0.1rem;
+}
+h1
+{
+color:tomato;
+text-align:center;
+font-family:GungsuhChe;
+}
+.content1
+{background-color:black;
+grid-area:content1;
+}
+.content2
+{background-color:black;
+grid-area:content2;
+}
+.content3
+{background-color:black;
+grid-area:content3;
+}
+.content4
+{background-color:black;
+grid-area:content4;
+}
+.content5
+{background-color:black;
+grid-area:content5;
+}.content6
+{background-color:black;
+grid-area:content6;
+}
+.but
+{width:100px;
+height:50px;
+background-color:green;
+color:white;
+margin-right:18px;
+width:200px;
+border-radius:10px;
+font-size:20px;}
+div.content1:hover
+{background-color:#ff0000;
+transform: scale(1.2); 
+}
+
+
+div.content1:hover
+{background-color:#ff0000;
+transform: scale(1.2); 
+}
+
+div.content2:hover
+{background-color:#ff0000;
+transform: scale(1.2); 
+}
+
+
+div.content3:hover
+{background-color:#ff0000;
+transform: scale(1.2); 
+}
+
+
+
+div.content4:hover
+{background-color:#ff0000;
+transform: scale(1.2);}
+div.content5:hover
+{background-color:#ff0000;
+transform: scale(1.2);}
+div.content6:hover
+{background-color:#ff0000;
+transform: scale(1.2);}

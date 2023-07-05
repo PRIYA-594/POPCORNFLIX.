@@ -1,0 +1,144 @@
+body
+{
+background-color:black;
+font-size:16px;
+}
+
+img
+{
+display:inline;
+width: 250px;
+ height:300px;
+}
+
+div.main
+{
+border: 10px solid green;
+
+height:100%px;
+width:1000px;
+color:red;
+background-color:black;
+}
+
+div.gallerys {
+margin: 5px;
+border: 5px solid magenta;
+float: left;
+width: 250px;
+height:300px;
+position:absolute;
+left:70px; 
+top:350px;
+}
+
+.nav2
+{font-size:16px;}
+
+img.nav2
+{
+display:inline;
+width: 250px;
+ height:200px;
+}
+
+table
+{
+width:70%;
+height:auto;
+border:5px solid black;
+font-size:25px;
+}
+
+.div2
+{
+column-count:2;
+column-rule:5px solid red;
+column-fill:balance;
+column-gap:20px;
+border:3px solid brown;
+padding:15px;
+background-color:LightYellow;
+}
+td:nth-child(odd)
+{
+background-color:lightblue;
+color:navy;
+}
+
+ul
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:black;
+padding:20px;
+}
+.home
+{
+background-color:green;
+}
+div.head
+{
+width:100%;
+height:100px;
+text-align:center;
+color:green;
+background-image: url("quick.jpeg");
+background-size:contain;
+
+}
+.nav a:hover
+{
+background-color:black;
+color:gold;
+
+}
+.nav1
+{
+position:relative;
+overflow:hidden;
+background-color:black;
+}
+.nav
+{
+overflow:hidden;
+background-color:black;
+}
+.nav a
+{
+text-decoration:none;
+display:inline;
+color:white;
+text-align:center;
+padding: 14px 16px;
+}
+
+
+table,tr,td
+{
+color:green;
+border:2px solid green;
+border-collapse:collapse;
+background-color:lime;
+text-align:center;
+padding:10px;
+marigin:20px;
+
+}
+b
+{
+font-size:30px;
+color:green;
+}
+i
+{
+font-size:30px;
+color:green;
+}
+p
+{
+color:green;
+text-align:center;
+}
